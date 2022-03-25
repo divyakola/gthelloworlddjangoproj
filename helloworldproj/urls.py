@@ -18,5 +18,6 @@ from django.urls import path
 from helloworldapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('wel/',views.wishes)
+    path('wel/',views.wishes),
+    path('greeting/',views.msg)
 ]
